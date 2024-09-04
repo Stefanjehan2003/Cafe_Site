@@ -1,0 +1,206 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #040303;
+}
+
+.topcontainer {
+    position: fixed;
+    width: 100%;
+    height: 39px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+}
+
+.logoc {
+    height: 40px;
+    padding: 0px;
+    margin-top: 0px;
+    width: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.top li {
+    margin: 0 7px;
+}
+
+.top a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    position: relative;
+    top: -3px; 
+    left: -7px;
+    font-size: 11px;
+}
+
+.top a:hover {
+    color: #34c9d4;
+}
+
+.Mcontainer {
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Head {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 18%; 
+    box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+    transition: transform 0.3s;
+    margin-bottom: 20px; 
+}
+
+.box img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.procard-wrapper {
+    display: flex;
+    justify-content: space-between;
+ 
+    margin-top: 20px;
+}
+
+.procard-wrapper .procard {
+    width: 32%; 
+    margin-bottom: 20px; 
+}
+
+.procard p
+{
+font-size: 10px;
+}
+.procard {
+    width: 300px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    background: radial-gradient(#111 50%, #000 100%);
+}
+.procard a {
+    color: white; 
+    text-decoration: none;
+}
+
+.procard a:visited {
+    color: white;
+    text-decoration: none; 
+}
+
+.procard a:active {
+    color: white; 
+    text-decoration: none; 
+}
+
+a {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: white; 
+    text-decoration: none; 
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+.procard img {
+    max-width: 100%;
+}
+
+.procard img {
+    transform: scale(1.3);
+    transition: all 0.3s ease-out;
+}
+
+.procard:hover img {
+    transform: scale(1.1) translateY(-20px);
+    opacity: 0.3
+}
+
+.procard .details {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+}
+
+.procard .details h3 {
+    transition: all 0.3s ease-out;
+    transform: translateY(30px);
+    margin: 0 0 20px;
+    opacity: 0;
+    font-weight: 700;
+    font-size: 31px;
+}
+
+.procard .details p {
+    transition: all 0.3s ease-out 0.2s;
+    transform: translateY(20px);
+            
+    opacity: 0;
+}
+
+.procard:hover .details h3 {
+    opacity: 1;
+}
+
+.procard:hover .details p {
+    opacity: 1;
+}
+
+.procard:hover .details a {
+    opacity: 1;
+}
+.MidCon 
+{    padding: 20px;
+    color: white;
+   
+}
+.MidCon h1 , h4 , p
+{
+    text-align: center;
+}
+.MidCon p
+{
+font-size: 10px;
+text-align: center;
+}
